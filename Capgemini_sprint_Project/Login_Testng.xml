@@ -7,7 +7,7 @@
     <parameter name="browser" value="chrome"/>
 
         <classes>
-            <class name="LOGIN.Login"/>
+            <class name="ecom.swaglabs.Login.Login"/>
         </classes>
 
     </test>
