@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>TestNG:  Integration Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Integration Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 08 19:58:18 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>64 seconds (64742 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>integration </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='PRODUCT.Product.priceLowToHigh()'><b>priceLowToHigh</b><br>Test class: PRODUCT.Product<br/>
+<a href="#Output-1972772630" onClick='toggleBox("Output-1972772630", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1972772630" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1972772630">
+Price Low to High --> PRODUCT SORTING IS PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>PRODUCT.Product@4116aac9</td></tr>
+<tr>
+<td title='CHECKOUT.Checkout.cartToCheckoutIntegration()'><b>cartToCheckoutIntegration</b><br>Test class: CHECKOUT.Checkout<br/>
+<a href="#Output-487778643" onClick='toggleBox("Output-487778643", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-487778643" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-487778643">
+CART TO CHECKOUT INTEGRATION --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>CHECKOUT.Checkout@5dda768f</td></tr>
+<tr>
+<td title='PURCHASE.Purchase.checkoutToPurchaseIntegration()'><b>checkoutToPurchaseIntegration</b><br>Test class: PURCHASE.Purchase<br/>
+<a href="#Output-1330415865" onClick='toggleBox("Output-1330415865", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1330415865" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1330415865">
+CHECKOUT TO PURCHASE INTEGRATION --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>PURCHASE.Purchase@7a8c8dcf</td></tr>
+<tr>
+<td title='CART.Cart.removeProductFromCart()'><b>removeProductFromCart</b><br>Test class: CART.Cart<br/>
+<a href="#Output-1105958076" onClick='toggleBox("Output-1105958076", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1105958076" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1105958076">
+REMOVE PRODUCT FROM CART --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>30</td>
+<td>CART.Cart@1ce24091</td></tr>
+<tr>
+<td title='LOGIN.Login.performanceGlitchUserLogin()'><b>performanceGlitchUserLogin</b><br>Test class: LOGIN.Login<br/>
+<a href="#Output-913450862" onClick='toggleBox("Output-913450862", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-913450862" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-913450862">
+performance_glitch_user --> LOGIN IS PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>LOGIN.Login@38425407</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Batch Suite]">
+  <test thread-count="5" name="Chrome Batch Tests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="CART.Cart">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="removeProductFromCart"/>
+        </methods>
+      </class> <!-- CART.Cart -->
+    </classes>
+  </test> <!-- Chrome Batch Tests(failed) -->
+</suite> <!-- Failed suite [Batch Suite] -->

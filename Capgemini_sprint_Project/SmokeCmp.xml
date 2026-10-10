@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Smoke Suite">
+
+    <test name="Smoke Tests">
+    <parameter name="browser" value="chrome"/>
+
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="LOGIN.Login"/>
+            <class name="PRODUCT.Product"/>
+            <class name="CART.Cart"/>
+            <class name="CHECKOUT.Checkout"/>
+            <class name="PURCHASE.Purchase"/>
+        </classes>
+
+    </test>
+
+</suite>

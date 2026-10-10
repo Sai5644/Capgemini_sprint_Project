@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Functional Suite]">
+  <test thread-count="5" name="Functional Tests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="functionality"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="CART.Cart">
+        <methods>
+          <include name="verifyProductInCart"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- CART.Cart -->
+      <class name="PURCHASE.Purchase">
+        <methods>
+          <include name="verifyOrderConfirmation"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- PURCHASE.Purchase -->
+      <class name="PRODUCT.Product">
+        <methods>
+          <include name="nameZToA"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- PRODUCT.Product -->
+      <class name="CHECKOUT.Checkout">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="verifyCheckoutDetails"/>
+        </methods>
+      </class> <!-- CHECKOUT.Checkout -->
+    </classes>
+  </test> <!-- Functional Tests(failed) -->
+</suite> <!-- Failed suite [Functional Suite] -->

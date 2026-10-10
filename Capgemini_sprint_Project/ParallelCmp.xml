@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Parallel Suite" parallel="tests" thread-count="2">
+
+    <test name="Login">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="ecom.swaglabs.Login.Login"/>
+        </classes>
+    </test>
+
+    <test name="Product">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="ecom.swaglabs.Product.Product"/>
+        </classes>
+    </test>
+
+    <test name="Cart">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="ecom.swaglabs.Cart.Cart"/>
+        </classes>
+    </test>
+
+    <test name="Checkout">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="ecom.swaglabs.Checkout.Checkout"/>
+        </classes>
+    </test>
+    
+    <test name="Purchase">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="ecom.swaglabs.Purchase.Purchase"/>
+        </classes>
+    </test>
+
+</suite>

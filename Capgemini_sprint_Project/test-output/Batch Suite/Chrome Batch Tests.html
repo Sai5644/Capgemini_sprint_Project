@@ -1,0 +1,344 @@
+<html>
+<head>
+<title>TestNG:  Chrome Batch Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Chrome Batch Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 09 16:14:15 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>102 seconds (102145 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ecom.swaglabs.Product.Product.nameZToA()'><b>nameZToA</b><br>Test class: ecom.swaglabs.Product.Product<br/>
+<a href="#Output-665564874" onClick='toggleBox("Output-665564874", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-665564874" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-665564874">
+Name Z-A --> PRODUCT SORTING IS PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Product.Product@f5958c9</td></tr>
+<tr>
+<td title='ecom.swaglabs.Checkout.Checkout.checkoutSystemFlow()'><b>checkoutSystemFlow</b><br>Test class: ecom.swaglabs.Checkout.Checkout<br/>
+<a href="#Output-1075284181" onClick='toggleBox("Output-1075284181", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1075284181" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1075284181">
+CHECKOUT SYSTEM FLOW --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.Checkout.Checkout@3eb738bb</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Login.performanceGlitchUserLogin()'><b>performanceGlitchUserLogin</b><br>Test class: ecom.swaglabs.Login.Login<br/>
+<a href="#Output-903195729" onClick='toggleBox("Output-903195729", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-903195729" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-903195729">
+performance_glitch_user --> LOGIN IS PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>ecom.swaglabs.Login.Login@557caf28</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Login.visualUserLogin()'><b>visualUserLogin</b><br>Test class: ecom.swaglabs.Login.Login<br/>
+<a href="#Output-351535152" onClick='toggleBox("Output-351535152", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-351535152" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-351535152">
+visual_user --> LOGIN IS PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Login.Login@557caf28</td></tr>
+<tr>
+<td title='ecom.swaglabs.Product.Product.priceHighToLow()'><b>priceHighToLow</b><br>Test class: ecom.swaglabs.Product.Product<br/>
+<a href="#Output-1935751909" onClick='toggleBox("Output-1935751909", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1935751909" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1935751909">
+Price High to Low --> PRODUCT SORTING IS PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Product.Product@f5958c9</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Login.errorUserLogin()'><b>errorUserLogin</b><br>Test class: ecom.swaglabs.Login.Login<br/>
+<a href="#Output-1035363280" onClick='toggleBox("Output-1035363280", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1035363280" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1035363280">
+error_user --> LOGIN IS PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>ecom.swaglabs.Login.Login@557caf28</td></tr>
+<tr>
+<td title='ecom.swaglabs.Cart.Cart.removeProductFromCart()'><b>removeProductFromCart</b><br>Test class: ecom.swaglabs.Cart.Cart<br/>
+<a href="#Output-1343838143" onClick='toggleBox("Output-1343838143", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1343838143" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1343838143">
+REMOVE PRODUCT FROM CART --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>ecom.swaglabs.Cart.Cart@233795b6</td></tr>
+<tr>
+<td title='ecom.swaglabs.Checkout.Checkout.cartToCheckoutIntegration()'><b>cartToCheckoutIntegration</b><br>Test class: ecom.swaglabs.Checkout.Checkout<br/>
+<a href="#Output-1333858345" onClick='toggleBox("Output-1333858345", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1333858345" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1333858345">
+CART TO CHECKOUT INTEGRATION --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Checkout.Checkout@3eb738bb</td></tr>
+<tr>
+<td title='ecom.swaglabs.Cart.Cart.addProductToCart()'><b>addProductToCart</b><br>Test class: ecom.swaglabs.Cart.Cart<br/>
+<a href="#Output-491738374" onClick='toggleBox("Output-491738374", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-491738374" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-491738374">
+ADD PRODUCT TO CART --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Cart.Cart@233795b6</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Login.problemUserLogin()'><b>problemUserLogin</b><br>Test class: ecom.swaglabs.Login.Login<br/>
+<a href="#Output-1977189075" onClick='toggleBox("Output-1977189075", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1977189075" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1977189075">
+problem_user --> LOGIN IS PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Login.Login@557caf28</td></tr>
+<tr>
+<td title='ecom.swaglabs.Product.Product.priceLowToHigh()'><b>priceLowToHigh</b><br>Test class: ecom.swaglabs.Product.Product<br/>
+<a href="#Output-1610014012" onClick='toggleBox("Output-1610014012", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1610014012" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1610014012">
+Price Low to High --> PRODUCT SORTING IS PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Product.Product@f5958c9</td></tr>
+<tr>
+<td title='ecom.swaglabs.Purchase.Purchase.checkoutToPurchaseIntegration()'><b>checkoutToPurchaseIntegration</b><br>Test class: ecom.swaglabs.Purchase.Purchase<br/>
+<a href="#Output-171277374" onClick='toggleBox("Output-171277374", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-171277374" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-171277374">
+CHECKOUT TO PURCHASE INTEGRATION --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Purchase.Purchase@5bda8e08</td></tr>
+<tr>
+<td title='ecom.swaglabs.Purchase.Purchase.verifyOrderConfirmation()'><b>verifyOrderConfirmation</b><br>Test class: ecom.swaglabs.Purchase.Purchase<br/>
+<a href="#Output-361656258" onClick='toggleBox("Output-361656258", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-361656258" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-361656258">
+VERIFY ORDER CONFIRMATION --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.Purchase.Purchase@5bda8e08</td></tr>
+<tr>
+<td title='ecom.swaglabs.Purchase.Purchase.completePurchaseSystemFlow()'><b>completePurchaseSystemFlow</b><br>Test class: ecom.swaglabs.Purchase.Purchase<br/>
+<a href="#Output-2143419697" onClick='toggleBox("Output-2143419697", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2143419697" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2143419697">
+COMPLETE PURCHASE SYSTEM FLOW --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.Purchase.Purchase@5bda8e08</td></tr>
+<tr>
+<td title='ecom.swaglabs.Purchase.Purchase.completePurchase()'><b>completePurchase</b><br>Test class: ecom.swaglabs.Purchase.Purchase<br/>
+<a href="#Output-1010068549" onClick='toggleBox("Output-1010068549", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1010068549" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1010068549">
+COMPLETE PURCHASE --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.Purchase.Purchase@5bda8e08</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Login.standardUserLogin()'><b>standardUserLogin</b><br>Test class: ecom.swaglabs.Login.Login<br/>
+<a href="#Output-2074826904" onClick='toggleBox("Output-2074826904", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2074826904" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2074826904">
+standard_user --> LOGIN IS PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Login.Login@557caf28</td></tr>
+<tr>
+<td title='ecom.swaglabs.Cart.Cart.verifyProductInCart()'><b>verifyProductInCart</b><br>Test class: ecom.swaglabs.Cart.Cart<br/>
+<a href="#Output-589094312" onClick='toggleBox("Output-589094312", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-589094312" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-589094312">
+VERIFY PRODUCT IN CART --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Cart.Cart@233795b6</td></tr>
+<tr>
+<td title='ecom.swaglabs.Login.Login.lockedOutUserLogin()'><b>lockedOutUserLogin</b><br>Test class: ecom.swaglabs.Login.Login<br/>
+<a href="#Output-1150436743" onClick='toggleBox("Output-1150436743", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1150436743" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1150436743">
+locked_out_user --> LOGIN IS PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Login.Login@557caf28</td></tr>
+<tr>
+<td title='ecom.swaglabs.Checkout.Checkout.checkoutWithValidDetails()'><b>checkoutWithValidDetails</b><br>Test class: ecom.swaglabs.Checkout.Checkout<br/>
+<a href="#Output-705258430" onClick='toggleBox("Output-705258430", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-705258430" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-705258430">
+CHECKOUT WITH VALID DETAILS --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>ecom.swaglabs.Checkout.Checkout@3eb738bb</td></tr>
+<tr>
+<td title='ecom.swaglabs.Checkout.Checkout.verifyCheckoutDetails()'><b>verifyCheckoutDetails</b><br>Test class: ecom.swaglabs.Checkout.Checkout<br/>
+<a href="#Output-1825856364" onClick='toggleBox("Output-1825856364", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1825856364" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1825856364">
+VERIFY CHECKOUT DETAILS --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Checkout.Checkout@3eb738bb</td></tr>
+<tr>
+<td title='ecom.swaglabs.Product.Product.nameAToZ()'><b>nameAToZ</b><br>Test class: ecom.swaglabs.Product.Product<br/>
+<a href="#Output-1589640004" onClick='toggleBox("Output-1589640004", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1589640004" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1589640004">
+Name A-Z --> PRODUCT SORTING IS PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ecom.swaglabs.Product.Product@f5958c9</td></tr>
+<tr>
+<td title='ecom.swaglabs.Cart.Cart.continueShoppingFromCart()'><b>continueShoppingFromCart</b><br>Test class: ecom.swaglabs.Cart.Cart<br/>
+<a href="#Output-1801694172" onClick='toggleBox("Output-1801694172", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1801694172" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1801694172">
+CONTINUE SHOPPING --> PASSED<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ecom.swaglabs.Cart.Cart@233795b6</td></tr>
+</table><p>
+</body>
+</html>

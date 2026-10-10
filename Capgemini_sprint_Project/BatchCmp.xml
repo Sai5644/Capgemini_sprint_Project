@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Batch Suite">
+
+    <test name="Chrome Batch Tests">
+
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="ecom.swaglabs.Login.Login"/>
+            <class name="ecom.swaglabs.Product.Product"/>
+            <class name="ecom.swaglabs.Cart.Cart"/>
+            <class name="ecom.swaglabs.Checkout.Checkout"/>
+            <class name="ecom.swaglabs.Purchase.Purchase"/>
+        </classes>
+
+    </test>
+
+</suite>

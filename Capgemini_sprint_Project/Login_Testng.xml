@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Login Suite">
+
+    <test name="Login Tests">
+    <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="LOGIN.Login"/>
+        </classes>
+
+    </test>
+
+</suite>
