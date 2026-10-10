@@ -19,7 +19,7 @@ public class BaseClass1 {
 
     @BeforeMethod(alwaysRun = true)
     @Parameters("browser")
-    public void launchBrowser(String browser) throws Exception {
+   public void launchBrowser(@Optional("chrome")String browser) throws Exception {
 
         FileInputStream fis = new FileInputStream("src/main/resources/DDT/commonOfProject.properties");
 
