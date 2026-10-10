@@ -12,11 +12,11 @@
         </groups>
 
         <classes>
-            <class name="LOGIN.Login"/>
-            <class name="PRODUCT.Product"/>
-            <class name="CART.Cart"/>
-            <class name="CHECKOUT.Checkout"/>
-            <class name="PURCHASE.Purchase"/>
+            <class name="ecom.swaglabs.Login.Login"/>
+            <class name="ecom.swaglabs.Product.Product"/>
+            <class name="ecom.swaglabs.Cart.Cart"/>
+            <class name="ecom.swaglabs.Checkout.Checkout"/>
+            <class name="ecom.swaglabs.Purchase.Purchase"/>
         </classes>
 
     </test>
