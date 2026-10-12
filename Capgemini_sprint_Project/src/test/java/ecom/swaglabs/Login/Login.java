@@ -8,7 +8,7 @@ import GenericUtility.ExcelUtility;
 import GenericUtility.ScreenShot;
 import swagPom.LOGINPOM;
 
-public class Login extends BaseClass {
+public class LoginTest extends BaseClass {
 
     ExcelUtility eu = new ExcelUtility();
 
